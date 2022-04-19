@@ -21,7 +21,7 @@ Uma página de login que direciona o usuário a uma dashboard que mostra o token
 Eu tomei a liberdade de fazer este desafio de uma forma diferente.
 Como é um **desafio** e o objetivo é testar as habilidades do **desafiado**, fiz de uma forma facilmente adaptável para um contexto real.
 
-![Código do exemplo](https://raw.githubusercontent.com/celiojunior0110/desafio-login-voxcity/main/.github/images/api.png?token=GHSAT0AAAAAABTOXM3T4LCIWVHT6ICXH4EGYS7HP3Q)
+![Código do exemplo](https://raw.githubusercontent.com/celiojunior0110/desafio-login-voxcity/main/.github/images/api.png?token=GHSAT0AAAAAABTOXM3SIVTICYYOVL6CXMGWYS7ILYA)
 
 Como visto na imagem, o código marcado como "Fake", representa o que é visto no deploy.
 Já o código marcado como "Real", seria o que **eu** utilizaria em um contexto real seguindo o padrão estabelecido no desafio em questão.
@@ -33,4 +33,6 @@ O bootstrap por estar no enunciado e o styled-components por ser um meio mais in
 E como o objetivo é "testar habilidades", tomei essa licença poética de utilizar _um pouco_ de ambos.
 
 ### Organização do projeto:
-![Organização do projeto](https://raw.githubusercontent.com/celiojunior0110/desafio-login-voxcity/main/.github/images/arquivos.png?token=GHSAT0AAAAAABTOXM3SFGEDZCROD6MU4GXEYS7HXFQ)
+![Organização do projeto](https://raw.githubusercontent.com/celiojunior0110/desafio-login-voxcity/main/.github/images/arquivos.png?token=GHSAT0AAAAAABTOXM3T6NA4KKLCIL4LJ24KYS7IMRA)
+
+*_No caso das imagens não estarem visíveis, elas estão disponíveis na pasta .github/images/ do repositório._
