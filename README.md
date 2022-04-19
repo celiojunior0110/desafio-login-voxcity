@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Desafio React - Login Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Desafio:
+- Crie um Repositório no github.
+- Faça uma tela de Login utilizando react-bootstrap. Ao realizar Login, você deve gerar uma chave alfanumérica (ABC, abc, 123) aleatória única. Deixe claro no readme do projeto aonde estará mostrando essa chave (console, numa tela, etc..).
+- Adicione seu diferencial (pode ser uma Api, um design diferente, uma animação, um modal, uma lib pessoal de algum componente, etc...).
 
-## Available Scripts
+### Visão geral:
+Esse desafio foi proposto pela [voxcity](https://www.voxcity.com.br/) como parte de um processo seletivo realizado para uma vaga de nível júnior. <br>
+Minha intenção foi fazer um **bom** código seguindo as melhores práticas. Com isso, criei um design extremamente simples (até demais). <br>
+Busquei utilizar diversas ferramentas para a realização do mesmo.
+Foram utilizados: Custom Hooks, Styled-components, React-bootstrap e React-router com métodos modernos de desenvolvimento web.
 
-In the project directory, you can run:
+### Deploy:
+[https://smart-crate.surge.sh/](https://smart-crate.surge.sh/)
 
-### `npm start`
+### O que foi feito:
+Uma página de login que direciona o usuário a uma dashboard que mostra o token de acesso.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Observação importante:
+Eu tomei a liberdade de fazer este desafio de uma forma diferente.
+Como é um **desafio** e o objetivo é testar as habilidades do **desafiado**, fiz de uma forma facilmente adaptável para um contexto real.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Código do exemplo](https://raw.githubusercontent.com/celiojunior0110/desafio-login-voxcity/main/.github/images/api.png?token=GHSAT0AAAAAABTOXM3T4LCIWVHT6ICXH4EGYS7HP3Q)
 
-### `npm test`
+Como visto na imagem, o código marcado como "Fake", representa o que é visto no deploy.
+Já o código marcado como "Real", seria o que **eu** utilizaria em um contexto real seguindo o padrão estabelecido no desafio em questão.
+Por fim, optei por não utilizar uma API para que o código fosse simples, flexível e eficiente, sem demandar muito tempo para ser feito. <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Observação sobre a estilização (bootstrap e styled-components)
+Apesar de não ser algo que eu costume fazer, ou ache uma boa ideia, utilizei os 2 métodos de estilização citados acima em conjunto.
+O bootstrap por estar no enunciado e o styled-components por ser um meio mais interessante ao meu ver.
+E como o objetivo é "testar habilidades", tomei essa licença poética de utilizar _um pouco_ de ambos.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Organização do projeto:
+![Organização do projeto](https://raw.githubusercontent.com/celiojunior0110/desafio-login-voxcity/main/.github/images/arquivos.png?token=GHSAT0AAAAAABTOXM3SFGEDZCROD6MU4GXEYS7HXFQ)
